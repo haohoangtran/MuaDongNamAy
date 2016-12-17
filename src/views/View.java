@@ -23,7 +23,7 @@ public class View {
         this.image = image;
     }
 
-    public void draw(Graphics g, Model model) {
-        g.drawImage(image, model.getX(), model.getY(), model.getWidth(), model.getHeight(), null);
+    public void draw(Graphics g, Model model){
+        g.drawImage(image,model.getX(),model.getY(),model.getWidth(),model.getHeight(),null);
     }
 }
