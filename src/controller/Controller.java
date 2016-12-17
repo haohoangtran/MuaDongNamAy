@@ -2,6 +2,7 @@ package controller;
 
 import models.CheckPoint;
 import models.Model;
+import views.Animation;
 import views.View;
 
 import java.awt.*;
@@ -11,11 +12,11 @@ import java.awt.*;
  */
 public class Controller {
     protected Model model;
-    protected View view;
+    protected Animation animation;
 
-    public Controller(Model model, View view) {
+    public Controller(Model model, Animation animation) {
         this.model = model;
-        this.view = view;
+        this.animation = animation;
     }
 
     public Model getModel() {
@@ -27,7 +28,7 @@ public class Controller {
     }
 
     public void draw(Graphics g) {
-        view.draw(g, model);
+        animation.draw(g, model);
     }
 
 }

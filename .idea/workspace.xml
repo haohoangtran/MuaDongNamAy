@@ -1,269 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f026a94d-bd30-4dee-b7c4-9fa3cd25b073" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/MuaDongNamAy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/out/production/MuaDongNamAy/GameWindow$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/out/production/MuaDongNamAy/GameWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/out/production/MuaDongNamAy/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/out/production/MuaDongNamAy/models/Model.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/out/production/MuaDongNamAy/utils/Utils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/out/production/MuaDongNamAy/views/View.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Enemy/bahamut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Enemy/ifrit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Enemy/leviathan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Enemy/odin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Enemy/phoenix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Enemy/shiva.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Map1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/crystals_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/crystals_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/crystals_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/crystals_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/rocks_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Details/trees_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Landscape/landscape_39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (brown)/tower_54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (grey)/tower_54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/PNG/Towers (red)/tower_54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Sample.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/landscape_sheet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/landscape_sheet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/towers_brown_sheet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/towers_brown_sheet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/towers_grey_sheet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/towers_grey_sheet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/towers_red_sheet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/res/Spritesheet/towers_red_sheet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/src/GameWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/src/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/src/models/Model.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/src/utils/Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MuaDongNamAy/src/views/View.java" afterPath="" />
-    </list>
+    <list default="true" id="f026a94d-bd30-4dee-b7c4-9fa3cd25b073" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -280,118 +18,7 @@
     <favorites_list name="MuaDongNamAy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/Map1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-              <folding>
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckPoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/CheckPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnemyControllerShiva.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/EnemyControllerShiva.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Animation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bahamutDown1.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/Enemy/bahamut/bahamutDown1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bahamut.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/Enemy/bahamut.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -415,30 +42,20 @@
         <option value="$PROJECT_DIR$/src/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/GameWindow.java" />
         <option value="$PROJECT_DIR$/src/views/View.java" />
-        <option value="$PROJECT_DIR$/src/controller/EnemyController.java" />
         <option value="$PROJECT_DIR$/src/models/Model.java" />
         <option value="$PROJECT_DIR$/src/models/CheckPoint.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/controller/EnemyControllerShiva.java" />
         <option value="$PROJECT_DIR$/src/views/Animation.java" />
+        <option value="$PROJECT_DIR$/src/controller/EnemyController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -455,14 +72,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuaDongNamAy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MuaDongNamAy" />
@@ -615,9 +229,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,7 +266,7 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -665,7 +276,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -673,7 +284,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -698,7 +313,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -753,27 +372,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -865,34 +463,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Program" />
     </list>
@@ -901,7 +471,7 @@
         <item index="0" class="java.lang.String" itemvalue="Application.Program" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -911,7 +481,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -919,11 +489,7 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -944,37 +510,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1034,14 +600,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java" />
     <entry file="file://$PROJECT_DIR$/res/Map1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1050,7 +609,7 @@
     <entry file="file://$PROJECT_DIR$/MuaDongNamAy.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1060,167 +619,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/CheckPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/EnemyControllerShiva.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Model.java" />
+    <entry file="file://$PROJECT_DIR$/src/models/CheckPoint.java" />
+    <entry file="file://$PROJECT_DIR$/src/views/View.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/EnemyControllerShiva.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program.java" />
+    <entry file="file://$PROJECT_DIR$/src/GameWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java" />
     <entry file="file://$PROJECT_DIR$/res/Map1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Model.java" />
+    <entry file="file://$PROJECT_DIR$/src/views/View.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program.java" />
+    <entry file="file://$PROJECT_DIR$/src/GameWindow.java" />
     <entry file="file://$PROJECT_DIR$/src/utils/Util.java" />
-    <entry file="file://$PROJECT_DIR$/src/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program.java" />
     <entry file="file://$PROJECT_DIR$/res/Map1.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/Enemy/ifrit.png">
@@ -1243,91 +663,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/CheckPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Model.java" />
     <entry file="file://$PROJECT_DIR$/res/Enemy/bahamut.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/EnemyControllerShiva.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/View.java" />
     <entry file="file://$PROJECT_DIR$/res/Enemy/bahamut/bahamutDown1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/GameWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/EnemyControllerShiva.java" />
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/models/CheckPoint.java" />
+    <entry file="file://$PROJECT_DIR$/src/views/Animation.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/EnemyController.java" />
   </component>
   <component name="masterDetails">
     <states>

@@ -1,6 +1,7 @@
 package views;
 
 import controller.Controller;
+import models.CheckPoint;
 import models.Model;
 import utils.Utils;
 
@@ -17,11 +18,22 @@ public class Animation {
 
     public Animation(String path) {
         String[] split = path.split(",");
+        CheckPoint[] checkPoints=Utils.createCheckpoint();
+
         for (int i = 0; i < split.length; i++) {
             Image image = Utils.loadImage(split[i]);
             imageVector.add(image);
         }
     }
+
+//    public void creatAnimationRight(){
+//        String path = "res/Enemy/bahamut/bahamutRight1.png,res/Enemy/bahamut/bahamutRight2.png,res/Enemy/bahamut/bahamutRight3.png,res/Enemy/bahamut/bahamutRight4.png";
+//        String[] split = path.split(",");
+//        for (int i = 0; i < split.length; i++) {
+//            Image image = Utils.loadImage(split[i]);
+//            imageVector.add(image);
+//        }
+//    }
 
     public void draw(Graphics g, Model model) {
         if (imageVector != null) {
@@ -32,7 +44,8 @@ public class Animation {
                 time = 0;
                 index++;
                 if (index == imageVector.size()) {
-                    imageVector = null;
+                    //imageVector = null;
+                    index = 0;
                 }
             }
         }

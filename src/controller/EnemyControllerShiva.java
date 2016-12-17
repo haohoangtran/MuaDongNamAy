@@ -2,6 +2,7 @@ package controller;
 
 import models.CheckPoint;
 import models.Model;
+import views.Animation;
 import views.View;
 
 import java.util.List;
@@ -12,8 +13,8 @@ import java.util.List;
 public class EnemyControllerShiva extends Controller{
 
 
-    public EnemyControllerShiva(Model model, View view) {
-        super(model, view);
+    public EnemyControllerShiva(Model model, Animation animation) {
+        super(model, animation);
     }
 
 

@@ -41,7 +41,7 @@ public class Model {
         return height;
     }
 
-    private void move(int dx, int dy) {
+    public void move(int dx, int dy) {
         this.x += dx;
         this.y += dy;
     }
