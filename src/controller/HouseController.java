@@ -15,8 +15,8 @@ public class HouseController extends Controller {
     }
 
     @Override
-    public void draw(Graphics g) {
-        super.draw(g);
+    public void drawView(Graphics g) {
+        super.drawView(g);
     }
 
     public static HouseController create(int x, int y) {

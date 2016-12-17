@@ -68,17 +68,16 @@ public class GameWindow extends Frame implements Runnable{
     public void update(Graphics g) {
         Graphics backBufferGraphics = backBuffer.getGraphics();
         backBufferGraphics.drawImage(background,0, 0, 930, 690, null);
-        enemyController.draw(backBufferGraphics);
-        backBufferGraphics.drawString("a",330,502);
+        enemyController.drawAnimation(backBufferGraphics);
+        houseController.drawView(backBufferGraphics);
         g.drawImage(backBuffer, 0, 0, 930, 690, null);
     }
 
     @Override
     public void run() {
         while(true) {
+            this.repaint();
             try {
-
-                this.repaint();
                 Thread.sleep(17);
                 enemyController.run();
             } catch (InterruptedException e) {

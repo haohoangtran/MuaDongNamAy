@@ -22,7 +22,7 @@ public class Utils {
     }
     public static CheckPoint[] createCheckpoint(){
         CheckPoint[] checkPoints=new CheckPoint[6];
-        checkPoints[0]=new CheckPoint(8,190);
+        checkPoints[0]=new CheckPoint(8,180);
         checkPoints[1]=new CheckPoint(322,195);
         checkPoints[2]=new CheckPoint(330,482);
         checkPoints[3]=new CheckPoint(720,502);

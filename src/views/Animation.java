@@ -38,7 +38,7 @@ public class Animation {
     public void draw(Graphics g, Model model) {
         if (imageVector != null) {
             Image image = imageVector.get(index);
-            g.drawImage(image, model.getX() + 5, model.getY() - 5, 60, 60, null);
+            g.drawImage(image, model.getX() , model.getY(), 40, 40, null);
             time++;
             if (time / 10 == 1) {
                 time = 0;

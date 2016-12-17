@@ -33,8 +33,12 @@ public class Controller {
 
     }
 
-    public void draw(Graphics g) {
+    public void drawAnimation(Graphics g) {
         animation.draw(g, model);
+    }
+
+    public void drawView(Graphics g) {
+        view.draw(g, model);
     }
 
 }
