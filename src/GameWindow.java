@@ -1,3 +1,5 @@
+import controller.EnemyController;
+
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
@@ -11,10 +13,13 @@ import static utils.Utils.loadImage;
 public class GameWindow extends Frame implements Runnable{
     Image background;
     BufferedImage backBuffer;
+    EnemyController enemyController;
 
     GameWindow() {
         setVisible(true);
         setResizable(false);
+
+        enemyController=EnemyController.createEnemy();
         setSize(930, 690);
         backBuffer = new BufferedImage(930, 690, BufferedImage.TYPE_3BYTE_BGR);
         background = loadImage("res/Map1.png");
@@ -60,15 +65,19 @@ public class GameWindow extends Frame implements Runnable{
     public void update(Graphics g) {
         Graphics backBufferGraphics = backBuffer.getGraphics();
         backBufferGraphics.drawImage(background,0, 0, 930, 690, null);
+        enemyController.draw(backBufferGraphics);
+        backBufferGraphics.drawString("a",330,502);
         g.drawImage(backBuffer, 0, 0, 930, 690, null);
     }
 
     @Override
     public void run() {
         while(true) {
-            this.repaint();
             try {
+
+                this.repaint();
                 Thread.sleep(17);
+                enemyController.run();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
