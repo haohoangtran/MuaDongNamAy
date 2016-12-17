@@ -53,6 +53,8 @@ public class Model {
         return height;
     }
 
+<<<<<<< HEAD
+=======
     public void setHeight(int height) {
         this.height = height;
     }
@@ -97,6 +99,7 @@ public class Model {
         this.money = money;
     }
 
+>>>>>>> 9e577036bee08730db4a65fa87378df9edbccd2a
     public void move(int dx, int dy) {
         this.x += dx;
         this.y += dy;
