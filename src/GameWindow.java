@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import controller.EnemyController;
+=======
+import controller.HouseController;
+>>>>>>> 9e577036bee08730db4a65fa87378df9edbccd2a
 
 import java.awt.*;
 import java.awt.event.WindowEvent;
@@ -13,7 +17,11 @@ import static utils.Utils.loadImage;
 public class GameWindow extends Frame implements Runnable{
     Image background;
     BufferedImage backBuffer;
+<<<<<<< HEAD
     EnemyController enemyController;
+=======
+    HouseController house;
+>>>>>>> 9e577036bee08730db4a65fa87378df9edbccd2a
 
     GameWindow() {
         setVisible(true);
@@ -23,6 +31,8 @@ public class GameWindow extends Frame implements Runnable{
         setSize(930, 690);
         backBuffer = new BufferedImage(930, 690, BufferedImage.TYPE_3BYTE_BGR);
         background = loadImage("res/Map1.png");
+        house = HouseController.create(850, 220);
+
         addWindowListener(new WindowListener() {
             @Override
             public void windowOpened(WindowEvent e) {
@@ -65,8 +75,12 @@ public class GameWindow extends Frame implements Runnable{
     public void update(Graphics g) {
         Graphics backBufferGraphics = backBuffer.getGraphics();
         backBufferGraphics.drawImage(background,0, 0, 930, 690, null);
+<<<<<<< HEAD
         enemyController.draw(backBufferGraphics);
         backBufferGraphics.drawString("a",330,502);
+=======
+        house.draw(backBufferGraphics);
+>>>>>>> 9e577036bee08730db4a65fa87378df9edbccd2a
         g.drawImage(backBuffer, 0, 0, 930, 690, null);
     }
 
