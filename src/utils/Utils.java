@@ -1,16 +1,20 @@
 package utils;
 
+import controller.Body;
+import controller.EnemyController;
 import models.CheckPoint;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.Vector;
 
 /**
  * Created by DUC THANG on 12/17/2016.
  */
 public class Utils {
+    public static Vector<EnemyController> enemyControllers=new Vector<>();
     public static Image loadImage(String url) {
         try {
             Image image = ImageIO.read(new File(url));
@@ -29,5 +33,8 @@ public class Utils {
         checkPoints[4]=new CheckPoint(735,325);
         checkPoints[5]=new CheckPoint(907,345);
         return checkPoints;
+    }
+    public static void register(EnemyController enemyController){
+        enemyControllers.add(enemyController);
     }
 }
