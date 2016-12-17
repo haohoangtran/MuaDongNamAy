@@ -1,3 +1,5 @@
+import controller.HouseController;
+
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
@@ -11,6 +13,7 @@ import static utils.Utils.loadImage;
 public class GameWindow extends Frame implements Runnable{
     Image background;
     BufferedImage backBuffer;
+    HouseController house;
 
     GameWindow() {
         setVisible(true);
@@ -18,6 +21,8 @@ public class GameWindow extends Frame implements Runnable{
         setSize(930, 690);
         backBuffer = new BufferedImage(930, 690, BufferedImage.TYPE_3BYTE_BGR);
         background = loadImage("res/Map1.png");
+        house = HouseController.create(850, 250);
+
         addWindowListener(new WindowListener() {
             @Override
             public void windowOpened(WindowEvent e) {
@@ -60,6 +65,7 @@ public class GameWindow extends Frame implements Runnable{
     public void update(Graphics g) {
         Graphics backBufferGraphics = backBuffer.getGraphics();
         backBufferGraphics.drawImage(background,0, 0, 930, 690, null);
+        house.draw(backBufferGraphics);
         g.drawImage(backBuffer, 0, 0, 930, 690, null);
     }
 
