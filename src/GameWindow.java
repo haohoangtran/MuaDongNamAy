@@ -1,4 +1,5 @@
 import controller.EnemyController;
+import controller.HouseController;
 
 import java.awt.*;
 import java.awt.event.WindowEvent;
@@ -14,6 +15,7 @@ public class GameWindow extends Frame implements Runnable{
     Image background;
     BufferedImage backBuffer;
     EnemyController enemyController;
+    HouseController houseController;
 
     GameWindow() {
         setVisible(true);
@@ -23,6 +25,7 @@ public class GameWindow extends Frame implements Runnable{
         setSize(930, 690);
         backBuffer = new BufferedImage(930, 690, BufferedImage.TYPE_3BYTE_BGR);
         background = loadImage("res/Map1.png");
+        houseController = HouseController.create(850, 220);
         addWindowListener(new WindowListener() {
             @Override
             public void windowOpened(WindowEvent e) {

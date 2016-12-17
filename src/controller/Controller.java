@@ -13,10 +13,16 @@ import java.awt.*;
 public class Controller {
     protected Model model;
     protected Animation animation;
+    protected View view;
 
     public Controller(Model model, Animation animation) {
         this.model = model;
         this.animation = animation;
+    }
+
+    public Controller(Model model, View view) {
+        this.model = model;
+        this.view = view;
     }
 
     public Model getModel() {
