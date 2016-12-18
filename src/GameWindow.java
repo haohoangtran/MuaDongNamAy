@@ -1,5 +1,8 @@
+import controller.BodyManager;
 import controller.EnemyController;
 import controller.HouseController;
+import controller.Manager.EnemyManager;
+import controller.TowerController;
 
 import java.awt.*;
 import java.awt.event.WindowEvent;
@@ -11,17 +14,18 @@ import static utils.Utils.loadImage;
 /**
  * Created by DUC THANG on 12/17/2016.
  */
-public class GameWindow extends Frame implements Runnable{
+public class GameWindow extends Frame implements Runnable {
     Image background;
     BufferedImage backBuffer;
-    EnemyController enemyController;
+    EnemyManager enemyManager;
     HouseController houseController;
+    TowerController towerController;
 
-    GameWindow() {
+    public GameWindow() {
         setVisible(true);
         setResizable(false);
-
-        enemyController=EnemyController.createEnemy();
+        towerController = TowerController.createTower(80, 100);
+        enemyManager = new EnemyManager();
         setSize(930, 690);
         backBuffer = new BufferedImage(930, 690, BufferedImage.TYPE_3BYTE_BGR);
         background = loadImage("res/Map1.png");
@@ -67,19 +71,22 @@ public class GameWindow extends Frame implements Runnable{
 
     public void update(Graphics g) {
         Graphics backBufferGraphics = backBuffer.getGraphics();
-        backBufferGraphics.drawImage(background,0, 0, 930, 690, null);
-        enemyController.drawAnimation(backBufferGraphics);
+        backBufferGraphics.drawImage(background, 0, 0, 930, 690, null);
+        enemyManager.draw(backBufferGraphics);
         houseController.drawView(backBufferGraphics);
+        towerController.drawView(backBufferGraphics);
         g.drawImage(backBuffer, 0, 0, 930, 690, null);
     }
 
     @Override
     public void run() {
-        while(true) {
+        while (true) {
             this.repaint();
             try {
                 Thread.sleep(17);
-                enemyController.run();
+                enemyManager.run();
+                towerController.run();
+                BodyManager.instance.checkContact();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
