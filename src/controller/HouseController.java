@@ -9,7 +9,7 @@ import java.awt.*;
 /**
  * Created by DUC THANG on 12/17/2016.
  */
-public class HouseController extends Controller {
+public class HouseController extends Controller implements Body{
     public HouseController(Model model, View view) {
         super(model, view);
     }
@@ -20,7 +20,12 @@ public class HouseController extends Controller {
     }
 
     public static HouseController create(int x, int y) {
-        return new HouseController(new Model(x, y, 150, 150, false, 0, 10, 0, 0),
+        return new HouseController(new Model(x, y-20, 150, 150, false, 0, 10, 0, 0),
                 new View(Utils.loadImage("res/house2.png")));
+    }
+
+    @Override
+    public void onContact(Body other) {
+
     }
 }

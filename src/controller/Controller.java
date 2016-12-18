@@ -34,7 +34,9 @@ public class Controller {
     }
 
     public void drawAnimation(Graphics g) {
-        animation.draw(g, model);
+        if (animation != null) {
+            animation.draw(g, model);
+        }
     }
 
     public void drawView(Graphics g) {
