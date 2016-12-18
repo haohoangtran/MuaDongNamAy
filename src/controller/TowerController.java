@@ -35,7 +35,7 @@ public class TowerController extends Controller {
 
     public TowerController(Model model, View view) {
         super(model, view);
-
+        isFire=false;
         bulletTowers = new Vector<>();
     }
 
@@ -46,7 +46,10 @@ public class TowerController extends Controller {
 
     @Override
     public void run() {
-        EnemyController e = EnemyManager.chooseFire(this);
+        EnemyController e=null;
+        if (!isFire) {
+            e = EnemyManager.chooseFire(this);
+        }
         timeCount++;
         if (e != null) {
             if (timeCount > 30) {

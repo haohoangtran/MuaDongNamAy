@@ -26,6 +26,11 @@ public class EnemyController extends Controller implements Body {
     public static final Animation downAnimation = new Animation("res/Enemy/bahamut/bahamutDown1.png,res/Enemy/bahamut/bahamutDown2.png,res/Enemy/bahamut/bahamutDown3.png,res/Enemy/bahamut/bahamutDown4.png");
     public static final Animation upAnimation = new Animation("res/Enemy/bahamut/bahamutUp1.png,res/Enemy/bahamut/bahamutUp2.png,res/Enemy/bahamut/bahamutUp3.png,res/Enemy/bahamut/bahamutUp4.png");
 
+    @Override
+    public String toString() {
+        return "EnemyController đ";
+    }
+
     public void run() {
 
         CheckPoint[] checkPoints = Utils.createCheckpoint();
