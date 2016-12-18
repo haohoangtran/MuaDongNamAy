@@ -6,13 +6,13 @@ import java.awt.*;
  * Created by DUC THANG on 12/17/2016.
  */
 public class Model {
-    protected int x, y;
-    protected int width, height;
+    private int x, y;
+    private int width, height;
     protected boolean isAlive = true;
-    protected boolean isFly=false;
+    private boolean isFly=false;
     protected int speed;
-    protected int hp;
-
+    private int hp;
+    protected int radiusFire;
     public int getHp() {
         return hp;
     }
@@ -44,10 +44,19 @@ public class Model {
         this.atk = atk;
     }
 
+    public int getAtk() {
+        return atk;
+    }
+
+    public void setAtk(int atk) {
+        this.atk = atk;
+    }
+
     public Model(int x, int y, int width, int height, boolean isFly, int speed, int hp, int atk, int money) {
         this.x = x;
         this.y = y;
         this.width = width;
+
         this.height = height;
         this.isFly = isFly;
         this.speed = speed;
@@ -83,6 +92,15 @@ public class Model {
     public boolean isAlive() {
         return isAlive;
     }
+
+    public int getRadiusFire() {
+        return radiusFire;
+    }
+
+    public void setRadiusFire(int radiusFire) {
+        this.radiusFire = radiusFire;
+    }
+
     public Rectangle getRect(){
         return new Rectangle(x,y,width,height);
     }
@@ -90,6 +108,7 @@ public class Model {
     public void setAlive(boolean alive) {
         isAlive = alive;
     }
+
     public boolean intersects(Model other){
         Rectangle rect1 = this.getRect();
         Rectangle rect2 = other.getRect();

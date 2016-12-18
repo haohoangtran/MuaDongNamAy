@@ -10,13 +10,14 @@ import java.util.Vector;
  */
 public class BodyManager {
     private Vector<Body> bodies;
+
     public static final BodyManager instance=new BodyManager();
+
     public void register(Body other){
-        bodies.add(other);
+        this.bodies.add(other);
     }
 
     public BodyManager() {
-
         bodies=new Vector<>();
     }
 

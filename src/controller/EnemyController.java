@@ -15,7 +15,6 @@ import java.util.List;
  */
 public class EnemyController extends Controller implements Body {
 
-
     public EnemyController(Model model, Animation animation) {
         super(model, animation);
         this.model.setHp(100);
@@ -27,30 +26,39 @@ public class EnemyController extends Controller implements Body {
     public static final Animation downAnimation = new Animation("res/Enemy/bahamut/bahamutDown1.png,res/Enemy/bahamut/bahamutDown2.png,res/Enemy/bahamut/bahamutDown3.png,res/Enemy/bahamut/bahamutDown4.png");
     public static final Animation upAnimation = new Animation("res/Enemy/bahamut/bahamutUp1.png,res/Enemy/bahamut/bahamutUp2.png,res/Enemy/bahamut/bahamutUp3.png,res/Enemy/bahamut/bahamutUp4.png");
 
-
     public void run() {
+
         CheckPoint[] checkPoints = Utils.createCheckpoint();
+
         if (this.getModel().getX() < checkPoints[1].getX() && this.model.getY() < checkPoints[2].getY()) {
-            this.getModel().move(2, 0);
-            System.out.println("vào 1");
+            this.model.move(2, 0);
+            if (model.isAlive()) {
+                this.animation = rightAnimation;
+            }
         } else if (this.getModel().getY() < checkPoints[2].getY() && this.model.getX() < checkPoints[3].getX()) {
             this.model.move(0, 2);
-            this.animation = downAnimation;
-            System.out.println("vào 2");
+            if (model.isAlive()) {
+                this.animation = downAnimation;
+            }
 
         } else if (this.getModel().getX() < checkPoints[3].getX()) {
-            this.getModel().move(2, 0);
-            this.animation = rightAnimation;
-            System.out.println("vào 3");
+            this.model.move(2, 0);
+            if (model.isAlive()) {
+                this.animation = rightAnimation;
+            }
 
         } else if (this.getModel().getY() > checkPoints[4].getY() && this.getModel().getX() > checkPoints[3].getX()) {
-            this.getModel().move(0, -2);
-            this.animation = upAnimation;
-            System.out.println("vào 4");
+            this.model.move(0, -2);
+            if (model.isAlive()) {
+                this.animation = upAnimation;
+            }
         } else {
             this.model.move(2, 0);
-            this.animation = rightAnimation;
+            if (model.isAlive()) {
+                this.animation = rightAnimation;
+            }
         }
+
     }
 
     public static EnemyController createEnemy() {
@@ -63,11 +71,17 @@ public class EnemyController extends Controller implements Body {
 
     @Override
     public void onContact(Body other) {
-        if (other instanceof BulletTower) {
+        if (other instanceof BulletTower || other instanceof HouseController) {
             this.model.setHp(model.getHp() - 50);
-            if (model.getHp()<=0){
+            if (model.getHp() <= 0) {
+                this.animation = null;
                 this.model.setAlive(false);
             }
         }
+    }
+
+    @Override
+    public Model getModel() {
+        return this.model;
     }
 }

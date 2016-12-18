@@ -2,11 +2,13 @@ import controller.BodyManager;
 import controller.EnemyController;
 import controller.HouseController;
 import controller.TowerController;
+import controller.manager.EnemyManager;
 
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.awt.image.BufferedImage;
+import java.util.Vector;
 
 import static utils.Utils.loadImage;
 
@@ -14,20 +16,31 @@ import static utils.Utils.loadImage;
  * Created by DUC THANG on 12/17/2016.
  */
 public class GameWindow extends Frame implements Runnable {
+    public static int timeCount=0;
     Image background;
     BufferedImage backBuffer;
-    EnemyController enemyController;
+    EnemyManager enemyManager;
+    EnemyController e;
     HouseController houseController;
     TowerController towerController;
+
     public GameWindow() {
+        enemyManager=new EnemyManager();
         setVisible(true);
         setResizable(false);
-        towerController=TowerController.createTower(80,100);
-                enemyController = EnemyController.createEnemy();
+        setTitle("Mùa đông năm ấy - Amita Team");
+
         setSize(930, 690);
+
+        towerController = TowerController.createTower(80, 100);
+        towerController.getModel().setRadiusFire(25);
+        e = EnemyController.createEnemy();
+        enemyManager.add(e);
+        houseController = HouseController.create(850, 220);
+
         backBuffer = new BufferedImage(930, 690, BufferedImage.TYPE_3BYTE_BGR);
         background = loadImage("res/Map1.png");
-        houseController = HouseController.create(850, 220);
+
         addWindowListener(new WindowListener() {
             @Override
             public void windowOpened(WindowEvent e) {
@@ -68,22 +81,33 @@ public class GameWindow extends Frame implements Runnable {
 
 
     public void update(Graphics g) {
+
         Graphics backBufferGraphics = backBuffer.getGraphics();
+
         backBufferGraphics.drawImage(background, 0, 0, 930, 690, null);
-        enemyController.drawAnimation(backBufferGraphics);
+        enemyManager.drawAnimation(backBufferGraphics);
         houseController.drawView(backBufferGraphics);
         towerController.drawView(backBufferGraphics);
+
         g.drawImage(backBuffer, 0, 0, 930, 690, null);
     }
 
     @Override
     public void run() {
         while (true) {
-            this.repaint();
             try {
+
+                this.repaint();
                 Thread.sleep(17);
-                enemyController.run();
+                timeCount++;
+                if (timeCount>60) {
+                    enemyManager.add(EnemyController.createEnemy());
+                    timeCount=0;
+                }
+                enemyManager.run();
                 towerController.run();
+
+                BodyManager.instance.checkContact();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
