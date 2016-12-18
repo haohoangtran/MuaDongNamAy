@@ -100,7 +100,7 @@ public class GameWindow extends Frame implements Runnable {
                 this.repaint();
                 Thread.sleep(17);
                 timeCount++;
-                if (timeCount>60) {
+                if (timeCount>30) {
                     enemyManager.add(EnemyController.createEnemy());
                     timeCount=0;
                 }

@@ -35,7 +35,7 @@ public class TowerController extends Controller {
 
     public TowerController(Model model, View view) {
         super(model, view);
-
+        isFire=false;
         bulletTowers = new Vector<>();
     }
 
@@ -46,35 +46,15 @@ public class TowerController extends Controller {
 
     @Override
     public void run() {
-//        EnemyController e = EnemyManager.chooseFire(this);
-//        timeCount++;
-//        if (e != null) {
-//            if (timeCount > 30) {
-//                BulletTower bulletTower = BulletTower.createBullet(this.model.getMidX(), this.model.getY());
-//                bulletTower.setEnemyController(e);
-//                bulletTowers.add(bulletTower);
-//                System.out.println("Tao");
-//                timeCount=0;
-//            }
-//            Iterator<BulletTower> iterator = bulletTowers.iterator();
-//            while (iterator.hasNext()) {
-//                BulletTower bulletTower = iterator.next();
-//                if (!bulletTower.model.isAlive()) {
-//                    iterator.remove();
-//                } else {
-//                    bulletTower.run();
-//                }
-//            }
-//
-//        }
-    }
-
-    public void fireEnemy(EnemyController enemyController){
+        EnemyController e=null;
+        if (!isFire) {
+            e = EnemyManager.chooseFire(this);
+        }
         timeCount++;
-        if (enemyController != null) {
+        if (e != null) {
             if (timeCount > 30) {
                 BulletTower bulletTower = BulletTower.createBullet(this.model.getMidX(), this.model.getY());
-                bulletTower.setEnemyController(enemyController);
+                bulletTower.setEnemyController(e);
                 bulletTowers.add(bulletTower);
                 System.out.println("Tao");
                 timeCount=0;
@@ -90,7 +70,32 @@ public class TowerController extends Controller {
             }
 
         }
+
+        /*
+            if (e != null) {
+                timeCount++;
+                if (timeCount > 30) {
+                    BulletTower bulletTower = BulletTower.createBullet(this.model.getMidX(), this.model.getY());
+                    bulletTower.setEnemyController(e);
+                    bulletTowers.add(bulletTower);
+                    System.out.println("Tao");
+                    timeCount = 0;
+                }
+            } else{
+                Iterator<BulletTower> iterator = bulletTowers.iterator();
+                while (iterator.hasNext()) {
+                    BulletTower bulletTower = iterator.next();
+                    if (!bulletTower.model.isAlive()) {
+                        iterator.remove();
+                    } else {
+                        bulletTower.run();
+                    }
+                }
+            }
+            */
+
     }
+
 
     public static TowerController createTower(int x, int y) {
         return new TowerController(new Model(x, y, 45, 50, 0, 1), new View(Utils.loadImage("res/PNG/Towers (grey)/tower_00.png")));
@@ -99,11 +104,11 @@ public class TowerController extends Controller {
     @Override
     public void drawView(Graphics g) {
         super.drawView(g);
-//        for (BulletTower bulletTower : bulletTowers) {
-//            if (bulletTower.model.isAlive()) {
-//                bulletTower.drawView(g);
-//            }
-//        }
+        for (BulletTower bulletTower : bulletTowers) {
+            if (bulletTower.model.isAlive()) {
+                bulletTower.drawView(g);
+            }
+        }
     }
 
     @Override
