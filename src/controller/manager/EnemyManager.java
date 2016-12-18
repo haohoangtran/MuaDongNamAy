@@ -10,9 +10,10 @@ import java.util.Vector;
 /**
  * Created by Songt on 12/18/2016.
  */
-public class EnemyManager extends Manager{
+public class EnemyManager extends controller.manager.Manager {
 
-    public   static EnemyController chooseFire(TowerController towerController) {
+
+    public static EnemyController chooseFire(TowerController towerController) {
 
         int size = 1000;
         int pos=0;

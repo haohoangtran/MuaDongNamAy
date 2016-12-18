@@ -3,6 +3,7 @@ import controller.EnemyController;
 import controller.HouseController;
 import controller.TowerController;
 import controller.manager.EnemyManager;
+import controller.manager.TowerManager;
 
 import java.awt.*;
 import java.awt.event.WindowEvent;
@@ -22,18 +23,17 @@ public class GameWindow extends Frame implements Runnable {
     EnemyManager enemyManager;
     EnemyController e;
     HouseController houseController;
-    TowerController towerController;
+    TowerManager towerManager;
+    TowerController t;
 
     public GameWindow() {
         enemyManager=new EnemyManager();
+        towerManager = new TowerManager();
         setVisible(true);
         setResizable(false);
         setTitle("Mùa đông năm ấy - Amita Team");
-
         setSize(930, 690);
 
-        towerController = TowerController.createTower(80, 100);
-        towerController.getModel().setRadiusFire(25);
         e = EnemyController.createEnemy();
         enemyManager.add(e);
         houseController = HouseController.create(850, 220);
@@ -87,7 +87,7 @@ public class GameWindow extends Frame implements Runnable {
         backBufferGraphics.drawImage(background, 0, 0, 930, 690, null);
         enemyManager.drawAnimation(backBufferGraphics);
         houseController.drawView(backBufferGraphics);
-        towerController.drawView(backBufferGraphics);
+        towerManager.drawView(backBufferGraphics);
 
         g.drawImage(backBuffer, 0, 0, 930, 690, null);
     }
@@ -105,7 +105,7 @@ public class GameWindow extends Frame implements Runnable {
                     timeCount=0;
                 }
                 enemyManager.run();
-                towerController.run();
+                towerManager.run();
 
                 BodyManager.instance.checkContact();
             } catch (InterruptedException e) {

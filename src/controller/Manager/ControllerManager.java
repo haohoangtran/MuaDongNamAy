@@ -1,4 +1,4 @@
-package controller.Manager;
+package controller.manager;
 
 import controller.Controller;
 
