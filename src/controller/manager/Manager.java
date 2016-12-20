@@ -9,7 +9,7 @@ import java.util.Vector;
  * Created by Songt on 12/18/2016.
  */
 public class Manager {
-    public static Vector<Controller> controllers;
+    public Vector<Controller> controllers;
 
     public Manager() {
         this.controllers = new Vector<>();

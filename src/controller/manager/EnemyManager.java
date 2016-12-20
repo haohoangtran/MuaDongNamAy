@@ -12,7 +12,7 @@ import java.util.Vector;
  */
 public class EnemyManager extends Manager {
 
-    public static EnemyController chooseFire(TowerController towerController) {
+    public EnemyController chooseFire(TowerController towerController) {
         int pos = 0;
         if (controllers.size() == 0) {
             return null;

@@ -1,5 +1,7 @@
 package models;
 
+import javafx.scene.shape.Circle;
+
 import java.awt.*;
 
 /**
@@ -89,6 +91,10 @@ public class Model {
         return this.x+this.width/2;
     }
 
+    public int getMidY(){
+        return this.y+height/2;
+    }
+
     public boolean isAlive() {
         return isAlive;
     }
@@ -113,6 +119,10 @@ public class Model {
         Rectangle rect1 = this.getRect();
         Rectangle rect2 = other.getRect();
         return rect1.intersects(rect2);
+    }
+    public boolean intersectsCircle(Model other){
+        double distance = Math.sqrt(Math.pow(Math.abs(this.getMidX()-other.getMidX()),2)+Math.pow(Math.abs(this.getMidY()-other.getMidY()),2));
+        return distance<radiusFire;
     }
 
 }
