@@ -1,5 +1,6 @@
 package controller;
 
+import controller.manager.BodyManager;
 import models.CheckPoint;
 import models.Model;
 import utils.Utils;
@@ -25,11 +26,6 @@ public class EnemyController extends Controller implements Body {
     public static final Animation rightAnimation = new Animation("res/Enemy/bahamut/bahamutRight1.png,res/Enemy/bahamut/bahamutRight2.png,res/Enemy/bahamut/bahamutRight3.png,res/Enemy/bahamut/bahamutRight4.png");
     public static final Animation downAnimation = new Animation("res/Enemy/bahamut/bahamutDown1.png,res/Enemy/bahamut/bahamutDown2.png,res/Enemy/bahamut/bahamutDown3.png,res/Enemy/bahamut/bahamutDown4.png");
     public static final Animation upAnimation = new Animation("res/Enemy/bahamut/bahamutUp1.png,res/Enemy/bahamut/bahamutUp2.png,res/Enemy/bahamut/bahamutUp3.png,res/Enemy/bahamut/bahamutUp4.png");
-
-    @Override
-    public String toString() {
-        return "EnemyController đ";
-    }
 
     public void run() {
 
@@ -76,12 +72,16 @@ public class EnemyController extends Controller implements Body {
 
     @Override
     public void onContact(Body other) {
-        if (other instanceof BulletTower || other instanceof HouseController) {
+        if (other instanceof BulletTower) {
             this.model.setHp(model.getHp() - 50);
             if (model.getHp() <= 0) {
                 this.animation = null;
                 this.model.setAlive(false);
             }
+        }
+        if (other instanceof HouseController){
+            this.animation=null;
+            this.model.setAlive(false);
         }
     }
 

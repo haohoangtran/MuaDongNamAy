@@ -1,5 +1,6 @@
 package controller;
 
+import controller.manager.BodyManager;
 import models.Model;
 import utils.Utils;
 import views.View;
@@ -27,23 +28,23 @@ public class BulletTower extends Controller implements Body {
     }
 
 
-    public static int numberRun = 10;
+    public static int numberRun = 15;
 
     @Override
     public void run() {
-        if (enemyController!=null)
-        if (enemyController.getModel().isAlive()) {
-            int xE = enemyController.getModel().getX() + enemyController.model.getWidth() / 2;
-            int yE = enemyController.getModel().getY() + enemyController.model.getHeight() / 2;
-            int x = Math.abs(xE - this.model.getX());
-            int y = Math.abs(yE - this.model.getY());
-            this.model.move(x / numberRun, y / numberRun);
+        if (enemyController != null) {
+            if (enemyController.getModel().isAlive()) {
+                int xE = enemyController.getModel().getX() + enemyController.model.getWidth() / 2;
+                int yE = enemyController.getModel().getY() + enemyController.model.getHeight() / 2;
+                int x = (xE - this.model.getX());
+                int y = (yE - this.model.getY());
+                this.model.move(x / numberRun, y / numberRun);
+            }
         }
     }
 
-
     public static BulletTower createBullet(int x, int y) {
-        return new BulletTower(new Model(x, y, 12, 12, 7, 1), new View(Utils.loadImage("res/bullet.png")));
+        return new BulletTower(new Model(x, y, 12, 12, 20, 1), new View(Utils.loadImage("res/bullet.png")));
     }
 
     @Override

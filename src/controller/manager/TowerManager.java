@@ -1,28 +1,33 @@
 package controller.manager;
 
-import controller.Controller;
 import controller.TowerController;
 
+import java.awt.*;
 import java.util.Vector;
 
 /**
  * Created by Songt on 12/18/2016.
  */
-public class TowerManager extends Manager {
+public class TowerManager {
+    Vector<TowerController> towerControllers;
 
-    public TowerManager(){
-        TowerController towerController = TowerController.createTower(80, 100);
-        TowerController towerController1 = TowerController.createTower(500,500);
-        towerController.getModel().setRadiusFire(25);
-        towerController1.getModel().setRadiusFire(50);
-
-        controllers.add(towerController);
-        controllers.add(towerController1);
-        System.out.println(controllers.size());
+    public TowerManager() {
+        towerControllers=new Vector<>();
     }
-    @Override
-    public void run() {
-        super.run();
+    public void draw(Graphics g){
+        for (TowerController towerController : towerControllers) {
+            towerController.drawView(g);
+        }
     }
-
+    public void run(){
+        for (int i = 0; i < towerControllers.size(); i++) {
+            towerControllers.get(i).run();
+        }
+    }
+    public void add(TowerController t){
+        this.towerControllers.add(t);
+    }
+    public void remove(TowerController t){
+        this.towerControllers.remove(t);
+    }
 }

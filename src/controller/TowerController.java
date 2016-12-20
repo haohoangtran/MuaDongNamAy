@@ -35,7 +35,6 @@ public class TowerController extends Controller {
 
     public TowerController(Model model, View view) {
         super(model, view);
-        isFire=false;
         bulletTowers = new Vector<>();
     }
 
@@ -46,27 +45,19 @@ public class TowerController extends Controller {
 
     @Override
     public void run() {
-        EnemyController e=null;
+        EnemyController e = null;
         timeCount++;
-        if (e != null) {
-            if (timeCount > 30) {
+        e = EnemyManager.chooseFire(this);
+        if (e != null)
+        {
+            if (timeCount > 120) {
                 BulletTower bulletTower = BulletTower.createBullet(this.model.getMidX(), this.model.getY());
                 bulletTower.setEnemyController(e);
                 bulletTowers.add(bulletTower);
-                System.out.println("Tao");
-                timeCount=0;
+                timeCount = 0;
             }
-            Iterator<BulletTower> iterator = bulletTowers.iterator();
-            while (iterator.hasNext()) {
-                BulletTower bulletTower = iterator.next();
-                if (!bulletTower.model.isAlive()) {
-                    iterator.remove();
-                } else {
-                    bulletTower.run();
-                }
-            }
-
         }
+
 
         /*
             if (e != null) {
@@ -90,21 +81,30 @@ public class TowerController extends Controller {
                 }
             }
             */
+        Iterator<BulletTower> iterator = bulletTowers.iterator();
+        while (iterator.hasNext()) {
+            BulletTower bulletTower = iterator.next();
+            int a=bulletTower.getModel().getX();
+            int b=bulletTower.getModel().getY();
+            if (!bulletTower.model.isAlive() || !bulletTower.getEnemyController().getModel().isAlive()) {
+                iterator.remove();
+            } else {
+                bulletTower.run();
+            }
 
+        }
     }
 
 
     public static TowerController createTower(int x, int y) {
-        return new TowerController(new Model(x, y, 45, 50, 0, 1), new View(Utils.loadImage("res/PNG/Towers (grey)/tower_00.png")));
+        return new TowerController(new Model(x, y, 50, 50, 7, 1), new View(Utils.loadImage("res/PNG/Towers (grey)/TowersLever2.png")));
     }
 
     @Override
     public void drawView(Graphics g) {
         super.drawView(g);
-        for (BulletTower bulletTower : bulletTowers) {
-            if (bulletTower.model.isAlive()) {
-                bulletTower.drawView(g);
-            }
+        for (int i = 0; i < bulletTowers.size(); i++) {
+            bulletTowers.get(i).drawView(g);
         }
     }
 

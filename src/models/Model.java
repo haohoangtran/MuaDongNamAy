@@ -19,6 +19,14 @@ public class Model {
         return hp;
     }
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
     public void setHp(int hp) {
         this.hp = hp;
     }
@@ -91,10 +99,6 @@ public class Model {
         return this.x+this.width/2;
     }
 
-    public int getMidY(){
-        return this.y+height/2;
-    }
-
     public boolean isAlive() {
         return isAlive;
     }
@@ -123,6 +127,9 @@ public class Model {
     public boolean intersectsCircle(Model other){
         double distance = Math.sqrt(Math.pow(Math.abs(this.getMidX()-other.getMidX()),2)+Math.pow(Math.abs(this.getMidY()-other.getMidY()),2));
         return distance<radiusFire;
+    }
+    public int getMidY(){
+        return this.y+height/2;
     }
 
 }

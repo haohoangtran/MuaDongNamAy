@@ -29,12 +29,12 @@ public class Utils {
 
     public static CheckPoint[] createCheckpoint() {
         CheckPoint[] checkPoints = new CheckPoint[6];
-        checkPoints[0] = new CheckPoint(8, 180);
-        checkPoints[1] = new CheckPoint(322, 195);
-        checkPoints[2] = new CheckPoint(330, 482);
-        checkPoints[3] = new CheckPoint(720, 502);
-        checkPoints[4] = new CheckPoint(735, 325);
-        checkPoints[5] = new CheckPoint(907, 345);
+        checkPoints[0] = new CheckPoint(8, 280);
+        checkPoints[1] = new CheckPoint(322, 295);
+        checkPoints[2] = new CheckPoint(330, 582);
+        checkPoints[3] = new CheckPoint(720, 602);
+        checkPoints[4] = new CheckPoint(735, 425);
+        checkPoints[5] = new CheckPoint(907, 445);
         return checkPoints;
     }
 
