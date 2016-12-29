@@ -1,12 +1,13 @@
-package controller;
+package controller.manager;
 
+import controller.Body;
 import models.Model;
 
 import java.util.Iterator;
 import java.util.Vector;
 
 /**
- * Created by tranh on 12/17/2016.
+ * Created by HieuIt on 12/17/2016.
  */
 public class BodyManager {
     private Vector<Body> bodies;

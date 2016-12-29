@@ -1,6 +1,7 @@
 package views;
 
 import controller.Controller;
+import models.CellModel;
 import models.Model;
 
 import java.awt.*;

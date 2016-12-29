@@ -12,11 +12,12 @@ public class Manager {
     public static Vector<Controller> controllers;
 
     public Manager() {
+
         this.controllers = new Vector<>();
     }
     public void drawAnimation(Graphics g){
-        for (Controller controller : controllers) {
-            controller.drawAnimation(g);
+        for (int i = 0; i < controllers.size(); i++) {
+            controllers.get(i).drawAnimation(g);
         }
     }
     public void drawView(Graphics g){
@@ -35,5 +36,4 @@ public class Manager {
             controller.run();
         }
     }
-
 }
