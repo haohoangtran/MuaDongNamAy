@@ -45,7 +45,11 @@ public class TowerController extends Controller {
 
     @Override
     public void run() {
+<<<<<<< HEAD
         EnemyController e;
+=======
+        EnemyController e = null;
+>>>>>>> aafd602e1ec376e5b55db4adeb0772e0cf7e66bb
         timeCount++;
         e = EnemyManager.chooseFire(this);
         if (e != null)

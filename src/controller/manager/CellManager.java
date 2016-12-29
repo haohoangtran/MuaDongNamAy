@@ -13,7 +13,10 @@ public class CellManager {
     Vector<CellController> cellControllers;
     private static int WIDTH=900;
     private static int HEIGHT=900;
+<<<<<<< HEAD
 
+=======
+>>>>>>> aafd602e1ec376e5b55db4adeb0772e0cf7e66bb
     private int[] road = {19, 34, 49, 64, 79, 94, 95, 96, 97, 98, 99, 114, 129, 144, 159, 174, 189, 204, 203, 202, 217, 232};
     int[] build = {17, 32, 47, 62, 77, 107, 18, 33, 48, 63, 78, 93, 108, 123, 124, 110, 125, 111, 112, 128, 143, 20, 35, 50, 36, 51, 37, 52,
             21, 22, 23, 38, 53, 68, 83, 39, 54, 69, 84, 55, 70, 85, 160, 205, 220, 219, 218, 233,
